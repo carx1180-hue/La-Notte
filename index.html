@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>La Notté — Luxury Nail Studio</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="logo.png" alt="La Notté logo" class="logo">
+        <span class="brand-name">LA NOTTÉ</span>
+        <small class="brand-sub">Nail Studio</small>
+      </a>
+
+      <button id="navToggle" class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="mainNav" class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#staff">Staff</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#booking" class="btn small cta">BOOKING</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <img src="hero.jpg" alt="Hand with luxury nails" class="hero-bg" />
+    <div class="hero-inner container">
+      <div class="hero-text">
+        <h1>Best Nails For<br>Best Moments</h1>
+        <p class="lead">Feugiat primis and ligula laoreet — couture nail art, bridal looks & pampering rituals crafted for you.</p>
+        <a href="#booking" class="btn capsule">Find Out More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services container section">
+    <div class="services-grid">
+      <article class="service">
+        <div class="icon">💅</div>
+        <h3>Nail Care</h3>
+        <p>Classic & advanced manicure services with premium products and meticulous finish.</p>
+        <a href="services.html#nails" class="link">Find out more →</a>
+      </article>
+
+      <article class="service">
+        <div class="icon">🎨</div>
+        <h3>Nail Art</h3>
+        <p>Hand-painted couture designs — minimal to sculptural, created by our lead artists.</p>
+        <a href="services.html#nails" class="link">Find out more →</a>
+      </article>
+
+      <article class="service">
+        <div class="icon">➕</div>
+        <h3>Add-Ons</h3>
+        <p>Luxury add-ons: infills, gemstone accents, finish upgrades and maintenance.</p>
+        <a href="services.html#addons" class="link">Find out more →</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- Feature Block -->
+  <section class="feature container section">
+    <div class="feature-grid">
+      <div class="feature-image">
+        <img src="image.jpg" alt="Glamour portrait">
+      </div>
+      <div class="feature-copy">
+        <small class="eyebrow">GET YOUR SHINE ON</small>
+        <h2>Choose the Glamour</h2>
+        <p class="muted">Nullam tempor sapien gravida, donec pretium ipsum porta. We craft looks that photograph beautifully and last through every celebration.</p>
+        <ul class="bullets">
+          <li>Personalized consultations & tests</li>
+          <li>High-quality long-wear systems</li>
+          <li>Attention to sanitation & comfort</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Prices list (dual column) -->
+  <section class="prices container section">
+    <h2 class="section-title">Make your day shine with our services</h2>
+    <div class="prices-grid">
+      <ul class="price-list">
+        <li>
+          <span class="label">Classic Manicure</span>
+          <span class="dots"></span>
+          <span class="price">₹1,500</span>
+          <small class="time">25 minutes</small>
+        </li>
+        <li>
+          <span class="label">Spa Manicure</span>
+          <span class="dots"></span>
+          <span class="price">₹2,800</span>
+          <small class="time">35 minutes</small>
+        </li>
+        <li>
+          <span class="label">Gel Manicure</span>
+          <span class="dots"></span>
+          <span class="price">₹3,500</span>
+          <small class="time">40 minutes</small>
+        </li>
+        <li>
+          <span class="label">Signature Gel</span>
+          <span class="dots"></span>
+          <span class="price">₹4,500</span>
+          <small class="time">45 minutes</small>
+        </li>
+      </ul>
+
+      <ul class="price-list">
+        <li>
+          <span class="label">Classic Pedicure</span>
+          <span class="dots"></span>
+          <span class="price">₹2,200</span>
+          <small class="time">40 minutes</small>
+        </li>
+        <li>
+          <span class="label">Spa Pedicure</span>
+          <span class="dots"></span>
+          <span class="price">₹3,700</span>
+          <small class="time">50 minutes</small>
+        </li>
+        <li>
+          <span class="label">Gel Pedicure</span>
+          <span class="dots"></span>
+          <span class="price">₹4,200</span>
+          <small class="time">40 minutes</small>
+        </li>
+        <li>
+          <span class="label">Deluxe Gel Pedicure</span>
+          <span class="dots"></span>
+          <span class="price">₹6,800</span>
+          <small class="time">60 minutes</small>
+        </li>
+      </ul>
+    </div>
+
+    <div class="view-all">
+      <a href="services.html" class="link">View all prices</a>
+    </div>
+  </section>
+
+  <!-- Staff highlights -->
+  <section class="team container section">
+    <h2 class="section-title">Meet a Few of Our Experts</h2>
+    <div class="team-grid">
+      <figure class="team-card">
+        <img src="image2.jpg" alt="Shruti — Hair Expert">
+        <figcaption>
+          <strong>Shruti</strong>
+          <span class="role">Hair Expert</span>
+          <p>10+ years in color & styling — precision-led and editorial-ready.</p>
+        </figcaption>
+      </figure>
+
+      <figure class="team-card">
+        <img src="image3.jpg" alt="Rohan — Nail Expert">
+        <figcaption>
+          <strong>Mamta</strong>
+          <span class="role">Nail Expert</span>
+          <p>Master of sculpting and couture nail art — meticulous & refined.</p>
+        </figcaption>
+      </figure>
+
+      <figure class="team-card">
+        <img src="image4.jpg" alt="Shanaya — Bridal Makeup">
+        <figcaption>
+          <strong>Shanaya</strong>
+          <span class="role">Bridal Makeup Artist</span>
+          <p>Bridal lead with soft cinematic finishes that photograph beautifully.</p>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Offers carousel -->
+  <section class="offers container section">
+    <h2 class="section-title">Current Offers</h2>
+    <div class="carousel" id="offersCarousel" aria-roledescription="carousel">
+      <button class="carousel-control prev" data-action="prev" aria-label="Previous">&#10094;</button>
+      <div class="carousel-track">
+        <div class="carousel-item">
+          <img src="https://i.pinimg.com/1200x/a0/61/1a/a0611ac6cba4630c95a75abc5e8e1db7.jpg" alt="Bridal trial discount">
+          <div class="caption">Bridal trial discount — 15% off</div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="https://i.pinimg.com/1200x/a0/61/1a/a0611ac6cba4630c95a75abc5e8e1db7.jpg" alt="Hair + nails package">
+          <div class="caption">Hair + nails package — complimentary scalp massage</div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="https://i.pinimg.com/1200x/a0/61/1a/a0611ac6cba4630c95a75abc5e8e1db7.jpg" alt="Weekday package">
+          <div class="caption">Weekday intimate packages — exclusive savings</div>
+        </div>
+      </div>
+      <button class="carousel-control next" data-action="next" aria-label="Next">&#10095;</button>
+    </div>
+  </section>
+
+  <!-- Owner & about -->
+  <section class="owner container section">
+    <div class="owner-grid">
+      <div class="owner-photo">
+        <img src="image2.jpg" alt="Owner portrait">
+      </div>
+      <div class="owner-about">
+        <h2>We want to make every guest feel pretty, happy and loved</h2>
+        <p class="muted">Founded with a passion for craft, La Notté combines high-skill artistry with discreet and luxurious hospitality. Each visit is tailored to you — from pre-appointment consults to aftercare advice.</p>
+        <a href="about-contact.html" class="link">Read more & contact →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact shortcuts -->
+  <section class="contact-shortcuts container section">
+    <div class="contact-grid">
+      <a class="shortcut" href="https://instagram.com/" target="_blank" rel="noopener">
+        <div class="sicon">📷</div>
+        <div><strong>Instagram</strong><small>@lanotte_studio</small></div>
+      </a>
+
+      <a class="shortcut" href="https://wa.me/919999999999" target="_blank" rel="noopener">
+        <div class="sicon">💬</div>
+        <div><strong>WhatsApp</strong><small>+91 99999 99999</small></div>
+      </a>
+
+      <a class="shortcut" href="tel:+919999999999">
+        <div class="sicon">📞</div>
+        <div><strong>Phone</strong><small>+91 99999 99999</small></div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="f-about">
+        <img src="assets/logo.png" alt="La Notté logo" class="logo-sm">
+        <p class="muted">Luxury Nail Studio — Bridal • Nails • Care</p>
+      </div>
+
+      <div class="f-links">
+        <h4>Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="staff.html">Staff</a></li>
+          <li><a href="about-contact.html">About & Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="f-contact">
+        <h4>Contact</h4>
+        <p>+91 99999 99999</p>
+        <p>hello@lanotte.example</p>
+        <small>© <span id="year"></span> La Notté. All rights reserved.</small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
